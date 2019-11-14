@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+  	*{
+  		margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+
+  	}
+  	.carousel-inner img{
+  		width: 100%;
+  		height: 93vh;
+  		background: cover;
+  	}
+  
+  	footer div{
+  		height: 50px;
+  	}
+  </style>
+
+</head>
+<body>
+
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><i class="fas fa-guitars">Brandb@nd</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-info" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="couple">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="couple2.jpeg" alt="Couple2">
+    </div> -->
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1573152958734-1922c188fba3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="img1">
+    </div>
+     <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1508973379184-7517410fb0bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="mehndi">
+    </div> 
+    
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+</header>
+
+<!-- about us section -->
+<section>
+	<div class="container-fluid">
+		<h1 class="text-center text-capitalize pt-5">about us</h1>
+		<hr class="w-25 mx-auto pb-5">
+
+		<div class="row mb-5">
+			<div class="col-lg-6 col-md-6 col-12">
+				<img src="https://images.unsplash.com/photo-1481886756534-97af88ccb438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+			</div>
+			<div class="col-lg-6 col-md-6 col-12">
+				<h1>Who We are?</h1>
+				<hr>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<button class="btn btn-info">Wanna Know Me</button>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<!-- services section -->
+<section>
+	<div class="container-fluid">
+		<h1 class="text-center text-capitalize pt-5">Services</h1>
+		<hr class="w-25 mx-auto pb-5">
+
+		<div class="row text-center mb-5">
+			<div class="col-lg-4 col-md-4 col-12 mb-2">
+			<div class="card" style="width:400px">
+	  		<img class="card-img-top" src="https://images.unsplash.com/photo-1507245921392-e902673ca772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Card image">
+	  		<div class="card-body">
+	    	<h4 class="card-title">Rockon Music Concert</h4>
+	    	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    	cillum dolore eu fugiat nulla pariatur. </p>
+	    	<a href="#" class="btn btn-info">See Profile</a>
+	  		</div>
+			</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-12 mb-2">
+			<div class="card" style="width:400px">
+	  		<img class="card-img-top" src="https://images.unsplash.com/photo-1507245921392-e902673ca772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Card image">
+	  		<div class="card-body">
+	    	<h4 class="card-title">Rockon Music Concert</h4>
+	    	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    	cillum dolore eu fugiat nulla pariatur. </p>
+	    	<a href="#" class="btn btn-info">See Profile</a>
+	  		</div>
+			</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-12 mb-2">
+			<div class="card" style="width:400px">
+	  		<img class="card-img-top" src="https://images.unsplash.com/photo-1507245921392-e902673ca772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Card image">
+	  		<div class="card-body">
+	    	<h4 class="card-title">Rockon Music Concert</h4>
+	    	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    	cillum dolore eu fugiat nulla pariatur. </p>
+	    	<a href="#" class="btn btn-info">See Profile</a>
+	  		</div>
+			</div>
+			</div>
+		</div>
+	
+
+</div>
+
+</section>
+
+<!-- contact section -->
+		<section class="bg-info mb-5">
+			<article>
+				<div class="text-center pt-3 pb-3">
+					<h3 class="display-4 text-white">+(64)222-111-2222</h3>
+					<p>If you want best service call us</p>
+					<button class="btn btn-outline-light text-dark">Contact Now</button>
+				</div>
+			</article>	
+		</section>
+
+	<!-- gallery section -->
+	<section>
+	<div class="container">
+		<h1 class="text-center text-capitalize pt-5">Gallery</h1>
+		<hr class="w-25 mx-auto pb-5">
+
+			<div class="row mb-5">
+				<div class="col-lg-4 col-md-4 col-12 mb-2">
+					<img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-2">
+					<img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-2">
+					<img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+				</div>
+			</div>
+
+			<div class="row mb-5">
+				<div class="col-lg-4 col-md-4 col-12 mb-2">
+					<img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-2">
+					<img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-2">
+					<img src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid">
+				</div>
+			</div>
+
+
+	</div>
+</section>
+
+<!-- Register section -->
+
+<section class="bg-info mb-5">
+	<article>
+		<div class="text-center pt-3 pb-3">
+			<h3 class="display-4 text-white">Want To Join</h3>
+			<p>Be a part of Brandb@nd Family</p>
+			<button class="btn btn-outline-light text-dark" data-toggle="modal" data-target="#exampleModal">Join Now</button>
+
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title text-info" id="exampleModalLabel">Please Register Here</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+
+				<div class="modal-body">
+					<form>
+						<div class="form-row">
+
+							<div class="form-group col-lg-12 text-left">
+								<label for="inputEmail4">Email</label>
+								<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+							</div>
+
+							<div class="form-group col-lg-12 text-left">
+								<label for="inputPassword4">Password</label>
+								<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+							</div>
+
+						</div>
+
+						<div class="form-group">
+							<div class="form-check text-left">
+								<input class="form-check-input" type="checkbox" id="gridCheck">
+								<label class="form-check-label" for="gridCheck">Check me out</label>
+							</div>
+						</div>
+								  
+					</form>
+				</div>
+					      
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-outline-info">Save changes</button>
+					      </div>
+		
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>	
+</section>
+
+<!-- signup section  -->
+<section class="mb-4">
+	<div class="container">
+		<h1 class="text-center text-capitalize pt-3">Contact Us</h1>
+		<hr class="w-25 mx-auto pb-4">
+
+	<div class="col-lg-6 mx-auto">
+	<form>
+  		<div class="form-group">
+    		<label for="exampleInputEmail1">Full Name</label>
+    		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+  		</div>
+
+  		<div class="form-group">
+    		<label for="exampleInputPassword1">Email</label>
+    		<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+    		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  		</div>
+
+  		<div class="form-group">
+    		<label for="exampleInputMobile1">Contact No</label>
+    		<input type="text" class="form-control" id="exampleInputMobile1" aria-describedby="emailHelp" placeholder="Home or Mobile Number">
+  		</div>
+
+  		<div class="form-group">
+    		<label for="exampleInputMessage">Message</label>
+    		<textarea type="" class="form-control" id="exampleInputMessage1" aria-describedby="emailHelp" placeholder="How can we help you?">
+    		</textarea> 
+  		</div>
+
+  		<div class="form-group form-check">
+    		<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    		<label class="form-check-label" for="exampleCheck1">Check me out</label>
+  		</div>
+
+  		<button type="submit" class="btn btn-info">Submit</button>
+  		<button type="cancle" class="btn btn-outline-dark">Cancle</button>
+	</form>
+	</div>
+
+
+	</div>
+</section>
+
+<!-- footer -->
+<footer>
+	<div class="text-center bg-dark text-white pt-3">
+		<p>@copyright Brandba@nd.com 2019</p>
+	</div>
+</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
